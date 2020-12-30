@@ -1,0 +1,11 @@
+Bundle-Name: WebSight Bean Validation
+Bundle-License: GNU AGPLv3
+Include-Resource: target/dependency/org.apache.bval.bundle-2.0.3.jar
+Bundle-ClassPath: .,org.apache.bval.bundle-2.0.3.jar
+Import-Package: javax.persistence;resolution:=optional,\
+                javafx.*;resolution:=optional,\
+                javax.el;resolution:=optional,\
+                javax.enterprise.*;resolution:=optional,\
+                javax.interceptor;resolution:=optional,\
+                javax.xml.bind.*;resolution:=optional,\
+                *
